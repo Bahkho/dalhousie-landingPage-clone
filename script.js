@@ -22,10 +22,10 @@ const search = document.getElementById("search");
 const bgSearch = document.querySelector(".query");
 
 search.addEventListener("click", () => {
-  if (bgSearch.style.display === "flex") {
-    bgSearch.style.display = "none";
-  } else {
+  if (bgSearch.style.display === "none") {
     bgSearch.style.display = "flex";
+  } else {
+    bgSearch.style.display = "none";
   }
 });
 
