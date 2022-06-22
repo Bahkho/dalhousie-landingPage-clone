@@ -222,13 +222,16 @@ body {
     background-color: #ffd400;
     cursor: pointer;
   }
+  .query {
+    padding-left: 1.5rem;
+  }
   .query input {
     justify-content: center;
-    width: 100%;
-    margin-left: 1.5rem;
+    width: 92.5%;
   }
-  .query ion-icon{
-    font-size: 1.9rem;
+  .query ion-icon {
+    font-size: 1.5rem;
+    width: 7.5%;
   }
 }
 
