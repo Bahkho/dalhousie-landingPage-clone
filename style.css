@@ -232,6 +232,9 @@ body {
     font-size: 1.5rem;
     width: 7.5%;
   }
+  .query {
+    display:none;
+  }
 }
 
 @media (max-width: 1080px) {
