@@ -7,6 +7,7 @@
 
 body {
   background-color: white;
+  user-select: none;
 }
 
 .first-bar {
@@ -280,13 +281,13 @@ body {
 
 .image-1 img {
   width: 100%;
-  position: relative;
+  /* position: relative; */
   cursor: pointer;
 }
 
-.img-text {
+/* .img-text {
   width: 48.89%;
-  bottom: 0.15rem;
+  margin-bottom: 20%;
   padding: 0.85rem 1.5rem 1.5rem 0.4rem;
   position: absolute;
   right: 1.4%;
@@ -296,7 +297,7 @@ body {
   opacity: 0.7;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 870px) {
   .img-text {
     display: none;
   }
@@ -304,15 +305,15 @@ body {
 
 @media (max-width: 910px) {
   .img-text {
-    margin-bottom: 10%;
+    margin-bottom: 20%;
   }
 }
 
 @media (max-width: 1211px) {
   .img-text {
-    bottom: 10%;
+    margin-bottom: 20%;
   }
-}
+} */
 
 .img-text a:hover {
   text-decoration: underline;
